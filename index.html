@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- CSS only -->
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(8.jpg); background-size: cover">
+	<div class="main">
+		
+		
+		<div class="school" style="background-image:url(3.jpg);background-size: 100% 100%; height: 250px;width: 400px;border-radius: 10px;"></div>
+
+		<div  class="mastery"  style="background-image:url(2.webp);background-size: 100% 100%; height: 390px;width: 273px;border-radius: 10px;"> </div>
+
+		<div  class="arena" style="background-image:url(4.jpg);background-size: 100% 100%; height: 250px;width: 400px;border-radius: 10px;"></div>
+
+		<img src="5.png" alt="" class="main_player">
+	</div>
+	
+	<!--2 локация-->
+	<div class="location2" style="display:none;">
+		<!--таймер-->
+	
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<img src="doska.png" style="position: absolute; width: 400px" >
+			<h4 class="p-2 pl-4 text-white" style="position: absolute; width: 300px;margin-top: 10px;margin-left: 30px;">Каков настоящий возраст Принцессы Бубльгум?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc2_teacher"></div> 
+
+		<!--парты школьные-->
+		<div style="position: absolute; margin-top: 17%; margin-left: 29%">
+			<img src="stol.png" style="width: 200px; position: absolute;">
+			<img src="stol.png" style="width: 200px; position: absolute; margin-left: 220px">
+			<img src="stol.png" style="width: 200px; position: absolute; margin-left: 440px">
+			<img src="stol.png" style="width: 200px; position: absolute; margin-left: 660px">			
+		</div>
+		<div style="position: absolute; margin-top: 25%; margin-left: 29%">
+			<img src="stol.png" style="width: 200px; position: absolute;">
+			<img src="stol.png" style="width: 200px; position: absolute;margin-left: 220px">
+			<img src="stol.png" style="width: 200px; position: absolute;margin-left: 440px">
+			<img src="stol.png" style="width: 200px; position: absolute;margin-left: 660px">			
+		</div>
+
+		<!--варианты ответов-->
+		<div class="loc2_variants_block" style="">
+			 <div class="loc2_variants" style="border-radius: 8px;">Вариант 1: Около 10000 лет</div>
+			 <div class="loc2_variants" style="margin-left: 150px;border-radius: 8px;">Вариант 2: Около 18 лет</div>
+			 <div class="loc2_variants" style="margin-left: 300px;border-radius: 8px; ">Вариант 3:Около 1200 лет</div>
+			 <div class="loc2_variants" style="margin-top: 140px;border-radius: 8px; ">Вариант 4: Около 2000 лет</div>
+			 <div class="loc2_variants" style="margin-top: 140px;border-radius: 8px; margin-left: 150px;">Вариант 5:Около 828 лет</div>
+			 <div class="loc2_pravilno" style="margin-top: 140px;border-radius: 8px; margin-left: 300px;">Вариант 6:Около 1000 лет</div>
+		</div>
+
+		<img src="5.png" class="loc2_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc2_talk" >
+			Ответь на вопрос который на доске. У тебя 10 секунд
+		</div>
+	</div>
+
+
+
+	<!-- локация 3-->
+	<div class="location3" style="display:none;">
+        <h1 class="text-dark fw-light" style="">найди:</h1>
+        <h1 class="text-dark text1 fw-light" style="">розетка</h1>
+         <h1 class="text-dark text2 fw-light" style="">телефон</h1>
+         <div class="col-2 mx-auto text-center text-dark">
+        <h1 class="fw-light">Мои очки <span class="bullet">0</span></h1>
+     </div>
+     <div style="width:1000px; height: 600px;border-top: 1px solid transparent;display: flex;margin-left: 500px;background-image: url(1.jpg);background-size: cover;">
+
+        <div class="ml" style="width:40px;height:40px ;border-radius:25px;margin-top:350px;margin-left: 500px;"></div>
+         <div class="ml2" style="width:40px;height:70px ;border-radius:25px;margin-top:300px;margin-left: 250px;"></div>
+     </div>
+    </div>
+
+     <!--локация 4-->
+      <div class="location4" style="display:none;">
+      	 <h1 class="text-dark fw-light" style="">найди 2 отличия</h1>
+      	 <div class="col-2 mx-auto text-center text-dark" style="margin-top: 100px;">
+            <h1 class="fw-light">Мои очки <span class="bull">0</span></h1>
+         </div>
+         <div class="box" style="width:1000px;height:750px;margin-left: auto;margin-right: auto;display: flex; background: black;">
+         	<div style="background-image:url(6.jpg);width: 500px;background-size: 100% 100%;height: 750px;border-top: 1px solid transparent;display: flex;">
+
+         		<div class="kay" style="height: 30px;width: 80px;margin-left: 100px;margin-top: 340px;"></div>
+         		<div class="kay2" style="height: 45px;width: 50px;margin-left:10px;margin-top: 330px;"></div>
+         	</div>
+         	<div style="background-image:url(61.jpg);width: 500px;margin-left: 10px;background-size: 100% 100%;height: 750px;"></div>
+         </div>
+      </div>
+
+
+
+    </div>
+
+<script src="script.js"></script>
+
+	
+</body>
+</html>
